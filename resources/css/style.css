@@ -29,7 +29,7 @@ p {
   padding: 3rem;
 }
 
-.fa {
+.fa, .fa-linkedin-square, .fa-github {
   font-size: 2rem;
   color: #f943a8
 }
