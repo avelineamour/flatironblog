@@ -25,6 +25,7 @@ p {
 
 a {
   color: #8b9aff;
+  text-decoration: none;
 }
 
 a:visited {
@@ -32,7 +33,9 @@ a:visited {
 }
 
 a:hover {
-  color: #f943a8;
+  background: -webkit-linear-gradient(#08e6fa,#f943a8);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 
@@ -104,5 +107,17 @@ hr {
 
 .rightsidebar {
   width: 28%;
+  display: flex;
+  align-items: center;
   /*border: 1px solid #995b5b;*/
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  line-height: 2;
+  background: -webkit-linear-gradient(#f943a8, #08e6fa);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
