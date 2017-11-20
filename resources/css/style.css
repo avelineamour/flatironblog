@@ -93,10 +93,16 @@ hr {
   /*border: 1px solid #995b5b;*/
 }
 
-.leftsidebar img {
+.razelle {
   width: 11rem;
   border-radius: 50%;
   margin-top: 4rem;
+}
+
+.pusheen {
+  width: 10rem;
+  margin-top: 3rem;
+  opacity: .7;
 }
 
 
@@ -151,6 +157,7 @@ hr {
 nav {
   margin-top: 8rem;
   display: flex;
+  align-items: center;
   flex-direction: column;
   line-height: 4;
   background: -webkit-linear-gradient(#f943a8, #08e6fa);
