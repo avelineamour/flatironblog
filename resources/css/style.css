@@ -18,35 +18,29 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.3rem;
+  padding-left: 3rem;
+  color: #9ea3d2;
+}
+
 p {
   line-height: 1.2;
   padding: 3rem;
 }
 
 a {
-  color: #8b9aff;
+  color: #9ea3d2;
   text-decoration: none;
 }
 
 a:visited {
-  color: #8b9aff;
+  color: #9ea3d2;
 }
 
 a:hover {
-  background: -webkit-linear-gradient(#08e6fa,#f943a8);
-  -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+ color: #f943a8;
 }
-
-
-.aboutraz {
-  margin-top: 2rem;
-}
-
-.aboutrazp {
-  padding: 2rem 4rem;
-}
-
 
 header {
   width: 100%;
@@ -58,6 +52,7 @@ header {
 header img {
   height: 5rem;
   width: auto;
+  margin: 2rem;
 }
 
 hr {
@@ -87,6 +82,15 @@ hr {
   margin-top: 4rem;
 }
 
+
+.aboutraz {
+  margin-top: 2rem;
+}
+
+.aboutrazp {
+  padding: 2rem 4rem;
+}
+
 .center {
   width: 44%;
   border-width: 1px;
@@ -105,19 +109,40 @@ hr {
   padding-right: 1rem;
 }
 
+.blog {
+  border-width: 1px;
+   border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#995b5b), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#f943a8, #08e6fa) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(rgba(0, 0, 0, 0), #f943a8, #08e6fa, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(rgba(0, 0, 0, 0), #f943a8, #08e6fa, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, rgba(0, 0, 0, 0), #f943a8, #08e6fa, rgba(0, 0, 0, 0)) 1 100%;
+}
+
 .rightsidebar {
   width: 28%;
   display: flex;
-  align-items: center;
+  justify-content: center;
   /*border: 1px solid #995b5b;*/
 }
 
 nav {
+  margin-top: 8rem;
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
-  line-height: 2;
+  line-height: 4;
   background: -webkit-linear-gradient(#f943a8, #08e6fa);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+nav a:hover {
+  background: -webkit-linear-gradient(#08e6fa,#f943a8);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
