@@ -8,12 +8,12 @@ html {
 h1 {
   font-size: 2rem;
   margin-bottom: 4rem;
-  color: #51b8c3;
+  color: #04a1af;
   text-align: center;
 }
 
 h2 {
-  color: #51b8c3;
+  color: #04a1af;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -27,6 +27,19 @@ h3 {
 p {
   line-height: 1.2;
   padding: 3rem;
+}
+
+.fa {
+  font-size: 2rem;
+  color: #f943a8
+}
+
+.fa-linkedin-square {
+  margin-top: 1rem;
+}
+
+.social {
+  margin-top: .5rem;
 }
 
 a {
@@ -60,6 +73,10 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #08e6fa, #f943a8, rgba(0, 0, 0, 0));
+}
+
+.center hr {
+  margin-bottom: 2rem;
 }
 
 .main {
