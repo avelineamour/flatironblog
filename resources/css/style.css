@@ -164,7 +164,10 @@ nav {
   align-items: center;
   flex-direction: column;
   line-height: 4;
-  background: -webkit-linear-gradient(#f943a8, #08e6fa);
+}
+
+nav a {
+  background: -webkit-linear-gradient(#08e6fa, #f943a8, #08e6fa);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
