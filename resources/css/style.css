@@ -5,9 +5,13 @@ html {
   font-family: "Europa-regular", sans-serif;
 }
 
+#mobilenav {
+  display: none;
+}
+
 h1 {
   font-size: 2rem;
-  margin-bottom: 4rem;
+  margin: 4rem;
   color: #04a1af;
   text-align: center;
 }
@@ -32,19 +36,6 @@ i {
 p {
   line-height: 1.4;
   padding: 3rem;
-}
-
-.fa, .fa-linkedin-square, .fa-github {
-  font-size: 2rem;
-  color: #f943a8
-}
-
-.fa-linkedin-square {
-  margin-top: 1rem;
-}
-
-.social {
-  margin-top: .5rem;
 }
 
 a {
@@ -104,12 +95,6 @@ hr {
   margin-top: 4rem;
 }
 
-.pusheen {
-  width: 10rem;
-  margin-top: 3rem;
-  opacity: .7;
-}
-
 
 .aboutraz {
   margin-top: 2rem;
@@ -117,6 +102,20 @@ hr {
 
 .aboutrazp {
   padding: 2rem 4rem;
+}
+
+
+.fa, .fa-linkedin-square, .fa-github {
+  font-size: 2rem;
+  color: #f943a8
+}
+
+.fa-linkedin-square {
+  margin-top: 1rem;
+}
+
+.social {
+  margin-top: .5rem;
 }
 
 .center {
@@ -176,4 +175,93 @@ nav a:hover {
   background: -webkit-linear-gradient(#08e6fa,#f943a8);
   -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+
+
+.pusheen {
+  width: 10rem;
+  margin-top: 3rem;
+  opacity: .7;
+}
+
+/*Tablet Design*/
+@media only screen
+and (max-width: 1200px)
+and (min-width: 1029px) {
+  .rightsidebar {
+    display: none;
+  }
+  .center {
+    width: 70%;
+    border-right: none;
+  }
+  .blog {
+    border-right: none;
+  }
+  .leftsidebar {
+    width: 30%;
+  }
+  h3 {
+    text-align: left;
+  }
+  .razelle {
+    margin-top: 0;
+  }
+  #mobilenav {
+    display: flex;
+    margin-top: 3rem;
+  }
+  .pusheen {
+    display: none;
+  }
+}
+
+@media only screen
+and (max-width: 1028px)
+and (min-width: 848px) {
+  .rightsidebar {
+    display: none;
+  }
+  .center {
+    width: 60%;
+    border-right: none;
+  }
+  .blog {
+    border-right: none;
+  }
+  .leftsidebar {
+    width: 40%;
+  }
+  h3 {
+    text-align: left;
+    padding-right: 1rem;
+  }
+  .razelle {
+    margin-top: 0;
+  }
+  #mobilenav {
+    display: flex;
+    margin-top: 1rem;
+  }
+  .pusheen {
+    display: none;
+  }
+}
+
+@media only screen
+and (min-width: 0px)
+and (max-width: 847px) {
+  .main {
+    justify-content: center;
+  }
+  .leftsidebar {
+    display: none;
+  }
+  .center {
+    width: 85%;
+    text-align: center;
+  }
+  .rightsidebar {
+    display: none;
+  }
 }
