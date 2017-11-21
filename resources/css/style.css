@@ -22,10 +22,15 @@ h3 {
   font-size: 1.3rem;
   padding-left: 3rem;
   color: #9ea3d2;
+  text-align: center;
+}
+
+i {
+  color: #9ea3d2;
 }
 
 p {
-  line-height: 1.2;
+  line-height: 1.4;
   padding: 3rem;
 }
 
@@ -151,7 +156,6 @@ hr {
   width: 28%;
   display: flex;
   justify-content: center;
-  /*border: 1px solid #995b5b;*/
 }
 
 nav {
